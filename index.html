@@ -6,20 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tp-Clima</title>
     <link href="css/index.css" rel="stylesheet">
-    <script src="index.js"></script>
+    <script src="js/app.js"></script>
 </head>
 <body>
     <header>
-        <!-- navbar -->
-        <div id="nav-bar">
-        <nav>
-          <ul>
-            <li><a href="#">INICIO</a></li>
-            <li><a href="#">CONSULTAR CLIMA</a></li>
-            <li><a href="#">AGREGAR CIUDAD</a></li>
-          </ul>
-        </nav>
-       </div>
+      <h1 id="inicio"><a href="http://127.0.0.1:5500/index.html">INICIO</a></h1>
     </header>
 
     <form>
@@ -31,7 +22,7 @@
             <option>Santa Fe</option>
         </select>
         <button>Consultar</button>
-        <button id="boton">agregar ciudad</button>
+        <button id="boton" onclick="redirect()">agregar ciudad</button>
       </fieldset>
     </form>
 
