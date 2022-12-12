@@ -1,0 +1,38 @@
+#signs{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida SansUnicode', 'Geneva', Verdana, sans-serif;
+    display: block;
+    justify-items: center;   
+}
+#city-added-sign{
+    margin-top: 20px;
+    margin-left: 300px;
+    text-align:center;
+    background-color:#28a745;
+    border-radius: 20px;
+    border-style: ridge;
+    width: 40%;
+    height: 90%;    
+}
+
+#city-not-founded-sign{
+    margin-top: 20px;
+    margin-left: 300px;
+    text-align:center;
+    background-color:red;
+    border-radius: 20px;
+    border-style: ridge;
+    width: 40%;
+    height: 90%;  
+}
+
+#city-is-already-on-list-sign{
+    margin-top: 20px;
+    margin-left: 300px;
+    text-align: center;
+    background-color: yellow;
+    border-radius: 20px;
+    border-style:ridge;
+    width: 40%;
+    height: 90%;
+}

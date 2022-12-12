@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TUP LC2 - TP Integrador</title>
+<!-- Estilos CSS -->
+<link rel="stylesheet" href="css/pages/common.css">
+<link rel="stylesheet" href="css/pages/help.css">
+</head>
+<body>
+<header>
+<h1>
+<span>Clima App</span>
+</h1>
+<nav>
+<ul>
+<li><a href="#">Mi App</a></li>
+<li><a href="AgregarCiudad.html">Ciudad</a></li>
+<li class="current-page"><a href="help.html">Ayuda</a></li>
+</ul>
+</nav>
+</header>
+<!-- Contenido principal de la página -->
+<main>
+<h2>Ayuda Clima App v1.0</h2>
+<p>
+    Esta App te permite consultar el clima de una ciudad en particular utilizando la API de <a href="#">OpenWeatherMap</a>
+</p>
+<p>
+    Para poder consultar el clima, primero debera <a href="AgregarCiudad.html">Agregar una ciudad</a> y luego seleccionar la Ciudad en cuestion desde la pagina <a href="index.html">Clima</a>.
+</p>
+<section id="formulario-help">
+    <form action="">
+        <div id="name">
+        <label>
+            nombre
+        </label>
+        <input type="text">
+        </div>
+        <div id="email">
+        <label>email</label>
+        <input type="email">
+        </div>
+        <div id="msg">
+        <label>Mensaje</label>
+        <input type="text">
+        </div>
+        <button type="button">Limpiar</button>
+        <button type="button">Enviar</button>
+    </form>
+</section>
+<p id="error-message">ingrese un texto valido</p>
+</body>
+</html>

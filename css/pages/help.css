@@ -1,0 +1,14 @@
+#formulario-help{
+    text-align: center;
+}
+
+#error-message{
+    margin-top: 40px;
+    margin-left: 300px;
+    text-align: center;
+    background-color:#d33b15;
+    border-radius: 20px;
+    border-style: ridge;
+    width: 40%;
+    height: 90%; 
+}
