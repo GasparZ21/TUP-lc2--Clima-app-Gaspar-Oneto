@@ -1,5 +1,11 @@
 const consultar = () =>{
-    let ciudad = document.querySelector("#ciudad").value;
-    console.log(ciudad)
+    const ciudades = JSON.parse(localStorage.getItem('cities'));
+    selectorCity = cities.map=() => {
+        cities.forEach(city => {
+            return `<option>${ciudad}</option>`}); 
+        
+    };
+    const selectorCityHtml = document.querySelector('#ciudad');
+    select.innerHTML = selectorCity
 
 };
